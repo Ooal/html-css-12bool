@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+/*debug*/
+[class*="col-"] {
+  height: 50px;
+  /*border: solid 1px white;*/
+}
+/*debug*/
+
+.giallo {
+  background-color: #faba12;
+  height: 50px;
+}
+
+.verde {
+  background-color: #38b24d;
+  height: 50px;
+}
+
+.bianco {
+  background-color: white;
+  height: 50px;
+}
