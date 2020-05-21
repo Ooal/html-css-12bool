@@ -11,11 +11,13 @@
   border: solid 1px black;
 }
 
-[class*="col-"] > [class*="col-"]{
-  height: 90%;
+[class*="col-"] [class*="col-"]{
+  height: 90px;
   border: solid 1px white;
   background-color: #e87c7c;
+  margin-top: 4px;
 }
+
 /*debug*/
 
 .contenitore {
