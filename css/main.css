@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*debug*/
+[class*="col-"] {
+  height: 100px;
+  border: solid 1px black;
+}
+/*debug*/
+
+.contenitore {
+  background-color: pink;
+}
+.testoorizzontale {
+  text-align: center;
+}
+
+.testoverticale {
+  line-height: 100px;
+}
+
+.rosa {
+  background-color: #e87c7c;
+  margin: 5px 5px;
+  height: 90%;
+  border: solid 1px white;
+}
