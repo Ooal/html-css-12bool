@@ -12,15 +12,14 @@
 }
 
 [class*="col-"]  [class*="col-"] {
-  height: 90px;
   border: solid 1px white;
   background-color: #e87c7c;
-  margin-top: 4px;
+
 }
 
-[class*="col-"] .contenitore {
-  width: 99%;
-  margin-left: 5px;
+.contenitore:last-child > div {
+  padding: 5px;
+  height: 90%;
 }
 
 /*debug*/
